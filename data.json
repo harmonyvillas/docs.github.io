@@ -51,7 +51,7 @@
         },
         {
             "id": "03",
-            "isAvailable": false,
+            "isAvailable": true,
             "title": "участок 03"
         },
         {
