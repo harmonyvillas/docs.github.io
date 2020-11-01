@@ -86,13 +86,13 @@ function createModal(spot, projects) {
         document.querySelector('input[name="price"]').value = selectedProject.price;
         document.querySelector('input[name="site"]').value = spot.title;
         closeModal();
-        setTimeout(() => document.querySelector('#rec244170344 a').click(), 500);
+        setTimeout(() => document.querySelector('#rec245052635 a').click(), 500);
     })
 }
 
 function createCss() {
     const css = `
-    #rec244170344 {
+    #rec245052635 {
         display: none;
     }
 .modal {
