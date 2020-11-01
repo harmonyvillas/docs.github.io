@@ -265,10 +265,408 @@ function connectToLinks(config) {
     }
 }
 
-function loadConfig() {
-    return fetch('https://cors-anywhere.herokuapp.com/harmonyvillas.github.io/data.json', {
-        headers: {
-            'Content-Type': 'application/json'
+const data = {
+    "spots": [
+        
+        {
+            "id": "67",
+            "isAvailable": true,
+            "title": "участок 67"
+        },
+        
+        {
+            "id": "57",
+            "isAvailable": true,
+            "title": "участок 57"
+        },
+        
+        {
+            "id": "40",
+            "isAvailable": true,
+            "title": "участок 40"
+        },
+        
+        {
+            "id": "28",
+            "isAvailable": true,
+            "title": "участок 28"
+        },
+        {
+            "id": "27",
+            "isAvailable": true,
+            "title": "участок 27"
+        },
+        {
+            "id": "12",
+            "isAvailable": true,
+            "title": "участок 12"
+        },
+        {
+            "id": "01",
+            "isAvailable": true,
+            "title": "участок 01"
+        },
+        {
+            "id": "02",
+            "isAvailable": true,
+            "title": "участок 02"
+        },
+        {
+            "id": "19",
+            "isAvailable": true,
+            "title": "участок 19"
+        },
+        {
+            "id": "03",
+            "isAvailable": true,
+            "title": "участок 03"
+        },
+        {
+            "id": "37",
+            "isAvailable": true,
+            "title": "участок 37"
+        },
+        {
+            "id": "27",
+            "isAvailable": true,
+            "title": "участок 27"
+        },
+        {
+            "id": "26",
+            "isAvailable": true,
+            "title": "участок 26"
+        },
+        {
+            "id": "25",
+            "isAvailable": true,
+            "title": "участок 25"
+        },
+        {
+            "id": "24",
+            "isAvailable": true,
+            "title": "участок 24"
+        },
+        {
+            "id": "23",
+            "isAvailable": true,
+            "title": "участок 23"
+        },
+        {
+            "id": "22",
+            "isAvailable": true,
+            "title": "участок 22"
+        },
+        {
+            "id": "21",
+            "isAvailable": true,
+            "title": "участок 21"
+        },
+        {
+            "id": "20",
+            "isAvailable": true,
+            "title": "участок 20"
+        },
+        {
+            "id": "18",
+            "isAvailable": true,
+            "title": "участок 18"
+        },
+        {
+            "id": "04",
+            "isAvailable": true,
+            "title": "участок 04"
+        },
+        {
+            "id": "17",
+            "isAvailable": true,
+            "title": "участок 17"
+        },
+        {
+            "id": "16",
+            "isAvailable": true,
+            "title": "участок 16"
+        },
+        {
+            "id": "15",
+            "isAvailable": true,
+            "title": "участок 15"
+        },
+        {
+            "id": "14",
+            "isAvailable": true,
+            "title": "участок 14"
+        },
+        {
+            "id": "13",
+            "isAvailable": true,
+            "title": "участок 13"
+        },
+        {
+            "id": "12",
+            "isAvailable": true,
+            "title": "участок 12"
+        },
+        {
+            "id": "11",
+            "isAvailable": true,
+            "title": "участок 11"
+        },
+        {
+            "id": "10",
+            "isAvailable": true,
+            "title": "участок 10"
+        },
+        {
+            "id": "09",
+            "isAvailable": true,
+            "title": "участок 09"
+        },
+        {
+            "id": "08",
+            "isAvailable": true,
+            "title": "участок 08"
+        },
+        {
+            "id": "07",
+            "isAvailable": true,
+            "title": "участок 07"
+        },
+        {
+            "id": "06",
+            "isAvailable": true,
+            "title": "участок 06"
+        },
+        {
+            "id": "05",
+            "isAvailable": true,
+            "title": "участок 05"
+        },
+        {
+            "id": "59",
+            "isAvailable": true,
+            "title": "участок 59"
+        },
+        {
+            "id": "58",
+            "isAvailable": true,
+            "title": "участок 58"
+        },
+        {
+            "id": "57",
+            "isAvailable": true,
+            "title": "участок 57"
+        },
+        {
+            "id": "56",
+            "isAvailable": true,
+            "title": "участок 56"
+        },
+        {
+            "id": "55",
+            "isAvailable": true,
+            "title": "участок 55"
+        },
+        {
+            "id": "54",
+            "isAvailable": true,
+            "title": "участок 54"
+        },
+        {
+            "id": "53",
+            "isAvailable": true,
+            "title": "участок 53"
+        },
+        {
+            "id": "52",
+            "isAvailable": true,
+            "title": "участок 52"
+        },
+        {
+            "id": "51",
+            "isAvailable": true,
+            "title": "участок 51"
+        },
+        {
+            "id": "50",
+            "isAvailable": true,
+            "title": "участок 50"
+        },
+        {
+            "id": "49",
+            "isAvailable": true,
+            "title": "участок 49"
+        },
+        {
+            "id": "48",
+            "isAvailable": true,
+            "title": "участок 48"
+        },
+        {
+            "id": "47",
+            "isAvailable": true,
+            "title": "участок 47"
+        },
+        {
+            "id": "46",
+            "isAvailable": true,
+            "title": "участок 46"
+        },
+        {
+            "id": "45",
+            "isAvailable": true,
+            "title": "участок 45"
+        },
+        {
+            "id": "36",
+            "isAvailable": true,
+            "title": "участок 36"
+        },
+        {
+            "id": "44",
+            "isAvailable": true,
+            "title": "участок 44"
+        },
+        {
+            "id": "43",
+            "isAvailable": true,
+            "title": "участок 43"
+        },
+        {
+            "id": "42",
+            "isAvailable": true,
+            "title": "участок 42"
+        },
+        {
+            "id": "41",
+            "isAvailable": true,
+            "title": "участок 41"
+        },
+        {
+            "id": "40",
+            "isAvailable": true,
+            "title": "участок 40"
+        },
+        {
+            "id": "39",
+            "isAvailable": true,
+            "title": "участок 39"
+        },
+        {
+            "id": "38",
+            "isAvailable": true,
+            "title": "участок 38"
+        },
+        {
+            "id": "35",
+            "isAvailable": true,
+            "title": "участок 35"
+        },
+        {
+            "id": "34",
+            "isAvailable": true,
+            "title": "участок 34"
+        },
+        {
+            "id": "33",
+            "isAvailable": true,
+            "title": "участок 33"
+        },
+        {
+            "id": "32",
+            "isAvailable": true,
+            "title": "участок 32"
+        },
+        {
+            "id": "31",
+            "isAvailable": true,
+            "title": "участок 31"
+        },
+        {
+            "id": "30",
+            "isAvailable": true,
+            "title": "участок 30"
+        },
+        {
+            "id": "29",
+            "isAvailable": true,
+            "title": "участок 29"
+        },
+        {
+            "id": "65",
+            "isAvailable": true,
+            "title": "участок 65"
+        },
+        {
+            "id": "64",
+            "isAvailable": true,
+            "title": "участок 64"
+        },
+        {
+            "id": "63",
+            "isAvailable": true,
+            "title": "участок 63"
+        },
+        {
+            "id": "62",
+            "isAvailable": true,
+            "title": "участок 62"
+        },
+        {
+            "id": "61",
+            "isAvailable": true,
+            "title": "участок 61"
+        },
+        {
+            "id": "60",
+            "isAvailable": true,
+            "title": "участок 60"
+        },
+        {
+            "id": "66",
+            "isAvailable": true,
+            "title": "участок 66"
         }
-    }).then(res => res.json());
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Дом 57 кв. м.",
+            "description": "Деревянный дом в предчистовой отделке",
+            "text": "Одноэтажный деревянный дом в предчистовой отделке, панорамное остекление",
+            "price": "1"
+        },
+        {
+            "id": "2",
+            "title": "Дом 60 кв. м.",
+            "description": "Деревянный дом в предчистовой отделке",
+            "text": "Одноэтажный деревянный дом в предчистовой отделке, панорамное остекление",
+            "price": "2"
+        },
+
+        {
+            "id": "4",
+            "title": "Дом 127 кв. м.",
+            "description": "Двухэтажный дом с террасой и балконом, панорамное остекление <br />",
+            "text": "Двухэтажный дом в предчистовой отделке с террасой и балконом, панорамное остекление",
+            "price": "4"
+        },
+        {
+            "id": "5",
+            "title": "Дом 67 кв. м.",
+            "description": "Дом из керамзитоблока в предчистовой отделке <br />",
+            "text": "Одноэтажный дом из керамзитоблока в предчистовой отделке с террасой, панорамное остекление",
+            "price": "5"
+        },
+    
+        
+    ]
+};
+
+function loadConfig() {
+    return Promise.resolve(data);
+    // return fetch('https://cors-anywhere.herokuapp.com/harmonyvillas.github.io/data.json', {
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     }
+    // }).then(res => res.json());
 }
