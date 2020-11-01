@@ -33,8 +33,8 @@ function createModal(spot, projects) {
 
     close.innerHTML = '&times;';
     title.innerText = spot.title;
-    selectDescription.innerText = `Р’С‹Р±РµСЂРёС‚Рµ РґРѕРј`;
-    reserve.innerText = `Р—Р°Р±СЂРѕРЅРёСЂРѕРІР°С‚СЊ`;
+    selectDescription.innerText = `Выберите дом`;
+    reserve.innerText = `Забронировать`;
 
     const select = document.createElement('select');
     for (let project of projects) {
