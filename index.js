@@ -47,12 +47,12 @@ function createModal(spot, projects) {
         const id = select.options[select.selectedIndex].value;
         selectedProject = projects.find(project => project.id == id);
         comment.innerHTML = selectedProject.description;
-        price.innerText = `${selectedProject.price} СЂ.`;
+        price.innerText = `${selectedProject.price} рублей.`;
     }
     select.addEventListener('change', updateActiveProject);
     updateActiveProject();
 
-    selectInput.appendChild(select);
+    selectInput.appendChild(select);   
     selectWrapper.appendChild(selectDescription);
     selectWrapper.appendChild(selectInput);
     content.appendChild(title);
