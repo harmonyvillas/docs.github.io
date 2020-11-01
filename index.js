@@ -266,7 +266,7 @@ function connectToLinks(config) {
 }
 
 function loadConfig() {
-    return fetch('https://cors-anywhere.herokuapp.com/gucu.ru/tildafix/data.json', {
+    return fetch('https://cors-anywhere.herokuapp.com/harmonyvillas.github.io/data.json', {
         headers: {
             'Content-Type': 'application/json'
         }
