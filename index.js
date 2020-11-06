@@ -213,7 +213,7 @@ function createCss() {
     font-weight: 600;
     color: #ffffff;
     background-color: #8e9dcc;
-    border-radius: 8px;
+    border-radius:1px;
     box-sizing: border-box;
     cursor: pointer;
     transition: all 0.4s;
