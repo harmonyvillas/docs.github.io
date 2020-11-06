@@ -152,6 +152,15 @@ function createCss() {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+.modal-content .price.innerText {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    flex: 0;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .modal-content .select-wrapper .select-description {
     font-size: 16px;
     font-family: 'Montserrat',Arial,sans-serif;
