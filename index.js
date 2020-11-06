@@ -121,7 +121,7 @@ function createCss() {
     max-width: 620px;
   }
   .modal-close {
-    color: #ffffff;
+    //color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
