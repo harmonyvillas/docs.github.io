@@ -171,7 +171,7 @@ function createCss() {
     background: #f8f8f8;
     color: #000;
     box-sizing: border-box;
-    cursor: pointer;
+   
     padding: 2px 50px 2px 10px;
     border-radius: 5px;
     appearance: none;
@@ -195,7 +195,7 @@ function createCss() {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.45;
     margin-top: 20px;
     margin-bottom: 12px;
