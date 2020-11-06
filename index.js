@@ -97,7 +97,7 @@ function createCss() {
         display: none;
     }
  .modal-content .price-view {
-      font-family: font-family: 'Montserrat',Arial,sans-serif;
+      font-family: 'Montserrat',Arial,sans-serif;
   }
 .modal {
     position: fixed; 
