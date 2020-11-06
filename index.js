@@ -121,7 +121,7 @@ function createCss() {
     max-width: 620px;
   }
   .modal-close {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -144,15 +144,6 @@ function createCss() {
   }
 
   .modal-content .select-wrapper {
-    display: flex;
-    flex-basis: 50%;
-    align-items: center;
-    flex: 0;
-    max-width: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-.modal-content .price.innerText {
     display: flex;
     flex-basis: 50%;
     align-items: center;
