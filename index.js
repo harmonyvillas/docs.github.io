@@ -168,12 +168,12 @@ function createCss() {
     line-height: 1.55;
     width: 100%;
     border: 1px #ddd solid;
-    background: #f8f8f8;
+    background: #000;
     color: #000;
     box-sizing: border-box;
-   
+    cursor: pointer;
     padding: 2px 50px 2px 10px;
-    border-radius: 5px;
+    border-radius: 0px;
     appearance: none;
     font-size: 16px;
   }
