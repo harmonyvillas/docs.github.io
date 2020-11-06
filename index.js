@@ -168,12 +168,12 @@ function createCss() {
     line-height: 1.55;
     width: 100%;
     border: 1px #ddd solid;
-    background: #000;
+    background: #ffffff;
     color: #000;
     box-sizing: border-box;
     cursor: pointer;
     padding: 2px 50px 2px 10px;
-    border-radius: 0px;
+    border-radius: 1px;
     appearance: none;
     font-size: 16px;
   }
@@ -208,7 +208,7 @@ function createCss() {
     padding-left: 30px;
     padding-right: 30px;
     display: block;
-    width: 100%;
+    width: 50%;
     font-family: Montserrat;
     font-weight: 600;
     color: #ffffff;
