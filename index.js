@@ -137,9 +137,9 @@ function createCss() {
   .modal-content .title {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 600;
-    color: #000000;
+    color: #8e9dcc;
     line-height: 1.17;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 12px;
     text-transform: capitalize;
   }
@@ -196,7 +196,7 @@ function createCss() {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 120px;
+    font-size: 14px;
     line-height: 1.45;
     margin-top: 20px;
     margin-bottom: 12px;
