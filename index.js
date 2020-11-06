@@ -20,6 +20,7 @@ function createModal(spot, projects) {
     const comment = document.createElement('div');
     const reserve = document.createElement('button');
 
+    price.classList.add('price-view');
     selectDescription.classList.add('select-description');
     selectInput.classList.add('select-input');
     selectWrapper.classList.add('select-wrapper');
@@ -95,6 +96,9 @@ function createCss() {
     #rec245052635 {
         display: none;
     }
+ .modal-content .price-view {
+      font-family: font-family: 'Montserrat',Arial,sans-serif;
+  }
 .modal {
     position: fixed; 
     z-index: 999999;
