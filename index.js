@@ -196,7 +196,7 @@ function createCss() {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
     color: #000000;
-    font-size: 12px;
+    font-size: 120px;
     line-height: 1.45;
     margin-top: 20px;
     margin-bottom: 12px;
