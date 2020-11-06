@@ -122,7 +122,7 @@ function createCss() {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 620px;
+    max-width: 500px;
   }
   .modal-close {
     float: right;
