@@ -133,7 +133,7 @@ function createCss() {
     text-decoration: none;
     cursor: pointer;
   }
-
+ //Участок 
   .modal-content .title {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 600;
@@ -153,8 +153,9 @@ function createCss() {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+ //Выберите дом
   .modal-content .select-wrapper .select-description {
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
     color: #000000;
@@ -163,6 +164,7 @@ function createCss() {
     position: relative;
     margin-left: 15px;
   }
+ //плашка с домами
   .modal-content .select-input select {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
@@ -173,7 +175,7 @@ function createCss() {
     color: #000;
     box-sizing: border-box;
     cursor: pointer;
-    padding: 2px 30px 2px 10px;
+    padding: 2px 50px 2px 10px;
     border-radius: 5px;
     appearance: none;
     font-size: 16px;
@@ -192,6 +194,7 @@ function createCss() {
     margin: auto;
     pointer-events: none;
   }
+ //Деревянный дом в предчистовой отделке
   .modal-content .comment {
     font-family: 'Montserrat',Arial,sans-serif;
     font-weight: 300;
